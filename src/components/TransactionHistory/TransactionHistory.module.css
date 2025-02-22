@@ -1,0 +1,36 @@
+.transactionTable {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+.transactionTable th,
+.transactionTable td {
+  padding: 10px;
+  border: 2px solid black;
+  text-align: left;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.transactionTable td:first-child {
+  padding-left: 90px;
+  width: 30%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.transactionTable th {
+  background-color: black;
+  color: white;
+  width: 30%;
+}
+
+.evenRow {
+  background-color: #ffffff;
+}
+
+.oddRow {
+  background-color: #d3d3d3;
+}
